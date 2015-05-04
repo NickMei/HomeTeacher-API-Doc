@@ -10,4 +10,5 @@
    * [getCityList](getcitylist.md)
    * [getDistrictList](getdistrictlist.md)
    * [getDistrictByCityName](getdistrictbycityname.md)
+* course
 
