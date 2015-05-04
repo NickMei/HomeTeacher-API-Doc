@@ -1,2 +1,3 @@
 # getCourseList
 
+getCourseList
