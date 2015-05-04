@@ -5,4 +5,5 @@
 * [getSearchFilterTypeList](Search/getSearchFilterTypeList.md)
 * [auth](auth.md)
 * [location](location.md)
+   * getProvinceList
 
