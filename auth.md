@@ -1,4 +1,4 @@
-/auth 
+#auth 
 #### Description
 auth user login account
 #### Resquet Method
