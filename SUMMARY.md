@@ -8,4 +8,5 @@
 * [location](location.md)
    * [getProvinceList](getprovincelist.md)
    * [getCityList](getcitylist.md)
+   * getDistrictList
 
