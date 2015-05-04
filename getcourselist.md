@@ -2,7 +2,7 @@
 
 
 #### Description
-get course list such as:  语文 数学 英语 物理 化学 生物 政治 地理 历史 奥数
+get course list such as:  全部 器乐 声乐 舞蹈 美术 书法 其它
 #### Resquet Method
 GET
 #### Request Parameters
@@ -21,7 +21,7 @@ GET
 
 #### Request Example
 
-|Request URL | "http://112.74.81.48/ijiajiao/coursecontroller/getCourseList?stage_id=5" |
+|Request URL | "http://112.74.81.48/ijiajiao/coursecontroller/getCourseList?stage_id=10" |
 | --| -- |
 
 
@@ -30,69 +30,45 @@ GET
 ```
 [
     {
-        "course_id": "46",
-        "stage_id": "5",
+        "course_id": "93",
+        "stage_id": "10",
         "course_name": "全部",
         "priority": "1"
     },
     {
-        "course_id": "47",
-        "stage_id": "5",
-        "course_name": "语文",
+        "course_id": "94",
+        "stage_id": "10",
+        "course_name": "器乐",
         "priority": "0"
     },
     {
-        "course_id": "48",
-        "stage_id": "5",
-        "course_name": "数学",
+        "course_id": "95",
+        "stage_id": "10",
+        "course_name": "声乐",
         "priority": "0"
     },
     {
-        "course_id": "49",
-        "stage_id": "5",
-        "course_name": "英语",
+        "course_id": "96",
+        "stage_id": "10",
+        "course_name": "舞蹈",
         "priority": "0"
     },
     {
-        "course_id": "50",
-        "stage_id": "5",
-        "course_name": "物理",
+        "course_id": "97",
+        "stage_id": "10",
+        "course_name": "美术",
         "priority": "0"
     },
     {
-        "course_id": "51",
-        "stage_id": "5",
-        "course_name": "化学",
+        "course_id": "98",
+        "stage_id": "10",
+        "course_name": "书法",
         "priority": "0"
     },
     {
-        "course_id": "52",
-        "stage_id": "5",
-        "course_name": "生物",
-        "priority": "0"
-    },
-    {
-        "course_id": "53",
-        "stage_id": "5",
-        "course_name": "政治",
-        "priority": "0"
-    },
-    {
-        "course_id": "54",
-        "stage_id": "5",
-        "course_name": "地理",
-        "priority": "0"
-    },
-    {
-        "course_id": "55",
-        "stage_id": "5",
-        "course_name": "历史",
-        "priority": "0"
-    },
-    {
-        "course_id": "56",
-        "stage_id": "5",
-        "course_name": "奥数",
+        "course_id": "99",
+        "stage_id": "10",
+        "course_name": "其它",
         "priority": "0"
     }
 ]
