@@ -11,4 +11,5 @@
    * [getDistrictList](getdistrictlist.md)
    * [getDistrictByCityName](getdistrictbycityname.md)
 * course
+   * getStageList
 
