@@ -8,7 +8,7 @@ GET
 
 | Name | Type | Mandatory | Default | Description |
 | -- | -- | -- | -- | -- |
-| provinceID | String | YES |  | province ID |
+| provinceID | String | YES |  | province ID: obtain by api getProvinceList |
 
 
 
