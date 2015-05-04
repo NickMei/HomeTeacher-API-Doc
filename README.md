@@ -1,5 +1,4 @@
-API Demo
-===
+
 **1. /getMovieMetaDataByKeyword **
 #### Description
 search movie by keyword and filter type 
