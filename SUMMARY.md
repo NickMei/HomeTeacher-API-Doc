@@ -13,5 +13,5 @@
 * course
    * [getStageList](getstagelist.md)
    * [getCourseList](getcourselist.md)
-   * getSubCourseList
+   * [getSubCourseList](getsubcourselist.md)
 
