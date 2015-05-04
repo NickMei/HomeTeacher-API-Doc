@@ -2,7 +2,7 @@
 
 
 #### Description
-get sub course list such as:  语文 数学 英语 物理 化学 生物 政治 地理 历史 奥数
+get sub course list such as:  全部 芭蕾舞 拉丁舞 街舞 现代舞 爵士舞 古典舞 民族舞 健美操 民间舞 国标舞 迪斯科 其它
 #### Resquet Method
 GET
 #### Request Parameters
@@ -21,7 +21,7 @@ GET
 
 #### Request Example
 
-|Request URL | "http://112.74.81.48/ijiajiao/coursecontroller/getSubCourseList?course_id=5" |
+|Request URL | "http://112.74.81.48/ijiajiao/coursecontroller/getSubCourseList?course_id=96" |
 | --| -- |
 
 
@@ -30,69 +30,81 @@ GET
 ```
 [
     {
-        "course_id": "46",
-        "stage_id": "5",
-        "course_name": "全部",
+        "course_sub_id": "35",
+        "course_id": "96",
+        "course_sub_name": "全部",
         "priority": "1"
     },
     {
-        "course_id": "47",
-        "stage_id": "5",
-        "course_name": "语文",
+        "course_sub_id": "36",
+        "course_id": "96",
+        "course_sub_name": "芭蕾舞",
         "priority": "0"
     },
     {
-        "course_id": "48",
-        "stage_id": "5",
-        "course_name": "数学",
+        "course_sub_id": "37",
+        "course_id": "96",
+        "course_sub_name": "拉丁舞",
         "priority": "0"
     },
     {
-        "course_id": "49",
-        "stage_id": "5",
-        "course_name": "英语",
+        "course_sub_id": "38",
+        "course_id": "96",
+        "course_sub_name": "街舞",
         "priority": "0"
     },
     {
-        "course_id": "50",
-        "stage_id": "5",
-        "course_name": "物理",
+        "course_sub_id": "39",
+        "course_id": "96",
+        "course_sub_name": "现代舞",
         "priority": "0"
     },
     {
-        "course_id": "51",
-        "stage_id": "5",
-        "course_name": "化学",
+        "course_sub_id": "40",
+        "course_id": "96",
+        "course_sub_name": "爵士舞",
         "priority": "0"
     },
     {
-        "course_id": "52",
-        "stage_id": "5",
-        "course_name": "生物",
+        "course_sub_id": "41",
+        "course_id": "96",
+        "course_sub_name": "古典舞",
         "priority": "0"
     },
     {
-        "course_id": "53",
-        "stage_id": "5",
-        "course_name": "政治",
+        "course_sub_id": "42",
+        "course_id": "96",
+        "course_sub_name": "民族舞",
         "priority": "0"
     },
     {
-        "course_id": "54",
-        "stage_id": "5",
-        "course_name": "地理",
+        "course_sub_id": "43",
+        "course_id": "96",
+        "course_sub_name": "健美操",
         "priority": "0"
     },
     {
-        "course_id": "55",
-        "stage_id": "5",
-        "course_name": "历史",
+        "course_sub_id": "44",
+        "course_id": "96",
+        "course_sub_name": "民间舞",
         "priority": "0"
     },
     {
-        "course_id": "56",
-        "stage_id": "5",
-        "course_name": "奥数",
+        "course_sub_id": "45",
+        "course_id": "96",
+        "course_sub_name": "国标舞",
+        "priority": "0"
+    },
+    {
+        "course_sub_id": "46",
+        "course_id": "96",
+        "course_sub_name": "迪斯科",
+        "priority": "0"
+    },
+    {
+        "course_sub_id": "47",
+        "course_id": "96",
+        "course_sub_name": "其它",
         "priority": "0"
     }
 ]
