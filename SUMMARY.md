@@ -9,4 +9,5 @@
    * [getProvinceList](getprovincelist.md)
    * [getCityList](getcitylist.md)
    * [getDistrictList](getdistrictlist.md)
+   * getDistrictByCityName
 
