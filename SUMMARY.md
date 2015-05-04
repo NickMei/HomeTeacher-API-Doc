@@ -7,5 +7,5 @@
    * [auth](auth.md)
 * [location](location.md)
    * [getProvinceList](getprovincelist.md)
-   * getCityList
+   * [getCityList](getcitylist.md)
 
