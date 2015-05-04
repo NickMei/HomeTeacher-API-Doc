@@ -4,5 +4,5 @@
    * [authUserAccount](authuseraccount.md)
 * [getMovieMetaDataByKeyword](chapter1.md)
 * [getSearchFilterTypeList](Search/getSearchFilterTypeList.md)
-* auth
+* [auth](auth.md)
 
