@@ -16,15 +16,14 @@ POST
 | -- | -- | -- | -- | -- |
 | Auth Response | JSON | YES| | Auth Response |
 
-#### Example
 
-|Request | "http://112.74.81.48/ijiajiao/authcontroller/auth" |
+#### Request Example
+
+|Request URL | "http://112.74.81.48/ijiajiao/authcontroller/auth" |
 | --| -- |
-| --| {userInfo: {username: $username, password: $md5HashedPassword}}|
+| POST| JSON: {userInfo: {username: $username, password: $md5HashedPassword}}|
 
-
-
-#### Response 
+#### Response Example
 
 ```
 {login_success: true, login_response: "成功登陆"}
