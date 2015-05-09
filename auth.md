@@ -19,7 +19,7 @@ POST
 
 #### Request Example
 
-|Request URL | "http://112.74.81.48/ijiajiao/authcontroller/auth" |
+|Request URL | "http://112.74.81.48/zhihuieducation/authcontroller/auth" |
 | --| -- |
 | POST| JSON: {userInfo: {username: $username, password: $md5HashedPassword}}|
 
