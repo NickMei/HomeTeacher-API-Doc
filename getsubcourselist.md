@@ -21,7 +21,7 @@ GET
 
 #### Request Example
 
-|Request URL | "http://112.74.81.48/ijiajiao/coursecontroller/getSubCourseList?course_id=96" |
+|Request URL | "http://112.74.81.48/zhihuieducation/coursecontroller/getSubCourseList?course_id=96" |
 | --| -- |
 
 
