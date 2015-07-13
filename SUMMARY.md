@@ -1,7 +1,7 @@
 # Summary
 
 * [introduction](README.md)
-* [sample](Search/getSearchFilterTypeList.md)
+* [sample](sample/getSearchFilterTypeList.md)
 * [auth](auth.md)
    * [auth](auth.md)
 * [location](location.md)
