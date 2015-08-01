@@ -2,7 +2,6 @@
 
 * [introduction](README.md)
 * [sample](sample/getSearchFilterTypeList.md)
-   * tutorInfo
 * [auth](auth.md)
    * [auth](auth.md)
 * [location](location.md)
