@@ -18,6 +18,10 @@ GET
 | -- | -- | -- | -- | -- |
 | Response | JSON | YES| | 教师列表  |
 
+#### Response 参数
+| Name |  Description | Type | Mandatory | Default |
+| -- | -- | -- | -- | -- |
+| Response | JSON | YES| | 教师列表  |
 
 #### Request Example
 
@@ -35,6 +39,7 @@ GET
         "head_photo": "http://112.74.81.48/zhihuieducation/webApp/app/res/tutor_photo/6.jpg",
         "signiture": "没有教不会的学生",
         "gender_eng": "male",
+        "career": "兼职教师",
         "edu_level": "研究生",
         "university": "江西大学",
         "total_class_time": "10",
@@ -48,6 +53,7 @@ GET
         "head_photo": "http://112.74.81.48/zhihuieducation/webApp/app/res/tutor_photo/4.jpg",
         "signiture": "相信自己一定可以",
         "gender_eng": "female",
+        "career": "在职教师",
         "edu_level": "本科",
         "university": "广东工业大学",
         "total_class_time": "19",
@@ -61,6 +67,7 @@ GET
         "head_photo": "http://112.74.81.48/zhihuieducation/webApp/app/res/tutor_photo/1.jpg",
         "signiture": "我是数学大牛",
         "gender_eng": "male",
+        "career": "大学生",
         "edu_level": "本科",
         "university": "吉林大学",
         "total_class_time": "15",
@@ -74,6 +81,7 @@ GET
         "head_photo": "http://112.74.81.48/zhihuieducation/webApp/app/res/tutor_photo/2.jpg",
         "signiture": "祝您圆梦",
         "gender_eng": "male",
+        "career": "在职教师",
         "edu_level": "研究生",
         "university": "香港大学",
         "total_class_time": "43",
@@ -87,6 +95,7 @@ GET
         "head_photo": "http://112.74.81.48/zhihuieducation/webApp/app/res/tutor_photo/3.jpg",
         "signiture": "没有教不会的学生",
         "gender_eng": "male",
+        "career": "兼职教师",
         "edu_level": "博士",
         "university": "香港理工大学",
         "total_class_time": "8",
