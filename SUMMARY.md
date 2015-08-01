@@ -9,7 +9,7 @@
    * [getCityList](getcitylist.md)
    * [getDistrictList](getdistrictlist.md)
    * [getDistrictByCityName](getdistrictbycityname.md)
-* course
+* [course](course.md)
    * [getStageList](getstagelist.md)
    * [getCourseList](getcourselist.md)
    * [getSubCourseList](getsubcourselist.md)
