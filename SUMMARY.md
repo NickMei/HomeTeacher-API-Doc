@@ -14,4 +14,5 @@
    * [getCourseList](getcourselist.md)
    * [getSubCourseList](getsubcourselist.md)
 * tutorInfo
+   * getTutorList
 
