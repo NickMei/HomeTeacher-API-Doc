@@ -21,7 +21,18 @@ GET
 #### Response 参数
 | Name |  Description | Type | Mandatory | Default |
 | -- | -- | -- | -- | -- |
-| Response | JSON | YES| | 教师列表  |
+| tutor_id | 教员ID | | |   |
+| name | 教员姓名，有可能是真名或者nickname | | |   |
+| head_photo | 教员头像地址| | |   |
+| signiture | 教员个人签名 | | |   |
+| gender_eng | 教员性别 | | |   |
+| career | 教员职业 | | |   |
+| edu_level | 只显示教员最高学历 | | |   |
+| university | 只显示教员最高学历的大学 | | |   |
+| total_class_time | 教员在本平台的总授课时长 | | |   |
+| rating | 教员评分 | | |   |
+| price | 教员课时价格 | | |   |
+| distance | 学员和教员的距离，需要传入的学生位置参数确定 | | |   |
 
 #### Request Example
 
