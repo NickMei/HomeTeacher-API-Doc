@@ -9,14 +9,14 @@ GET
 
 | Name | Type | Mandatory | Default | Description |
 | -- | -- | -- | -- | -- |
-| stage_id | String | YES | -- | stage_id: obtain by getStageList |
+| tutor_id | String | YES | -- |  |
 
 
 
 #### Response
 | Name | Type | Mandatory | Default | Description |
 | -- | -- | -- | -- | -- |
-| Response | JSON | YES| | course list  |
+| Response | JSON | YES| |   |
 
 
 #### Request Example
