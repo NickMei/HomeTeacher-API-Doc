@@ -10,14 +10,14 @@ GET
 
 | Name | Type | Mandatory | Default | Description |
 | -- | -- | -- | -- | -- |
-| tutor_name | String | YES | -- |  |
+| tutor_name | String | YES | -- | 教师的姓名或者昵称 |
 
 
 
 #### Response
 | Name | Type | Mandatory | Default | Description |
 | -- | -- | -- | -- | -- |
-| Response | JSON | YES| | 教师的姓名或者昵称  |
+| Response | JSON | YES| | 教师列表数组  |
 
 
 #### Request Example
