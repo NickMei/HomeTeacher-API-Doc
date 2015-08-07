@@ -1,7 +1,8 @@
 # getTutorListByName
 
-使用教师姓名或者昵称快速搜索教师
+
 #### Description
+使用教师姓名或者昵称快速搜索教师
 
 #### Resquet Method
 GET
