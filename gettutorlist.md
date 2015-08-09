@@ -1,5 +1,5 @@
 # getTutorList
-
+获取教师列表
 
 #### Description
 
@@ -9,7 +9,15 @@ GET
 
 | Name | Type | Mandatory | Default | Description |
 | -- | -- | -- | -- | -- |
-|  |  |  | -- |  |
+| order_by | string | NO | -- | 排序参照列 |
+| order_direc  | string | NO | -- |  ASC(顺序) DESC(逆序)|
+| tutor_name | string | NO | -- | 教师姓名或者昵称 |
+| gender_eng | string | NO | -- | 教师性别： male 或者 female |
+| career | string | NO | -- | 教师职业：在职教师 兼职教师 大学生 |
+| price_min | int | NO | -- | 教师价格最低值 |
+| price_max | int | NO | -- | 教师价格最高值 |
+| district | string | NO | -- |  按照城市区域搜索称 |
+
 
 
 
