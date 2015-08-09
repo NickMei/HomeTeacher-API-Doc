@@ -16,5 +16,4 @@
 * [tutorInfo](tutorinfo.md)
    * [getTutorList](gettutorlist.md)
    * [getTutorDetail](gettutordetail.md)
-   * [getTutorListByName](gettutorlistbyname.md)
 
