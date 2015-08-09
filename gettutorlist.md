@@ -18,6 +18,15 @@ GET
 | -- | -- | -- | -- | -- |
 | order_by | string | NO | -- | 排序参照列： rating（好评） total_class_time（总课时） price（价格）|
 | order_direc  | string | NO | -- |  ASC(顺序) DESC(逆序)|
+#####4种排序方式：
+
+#####a)综合排序：现在默认按照好评由高到低排序
+#####  不需要传递任何GET参数或者不添加值 ?order_by=&order_direc=
+#####b)评价最高： 按照好评由高到低排序  ?order_by=rating&order_direc=DESC
+#####c)课时最多： 课时由多到少排序:  ?order_by=total_class_time&order_direc=DESC
+#####d)价格最：按照一课时价格由低到高排序:  ?order_by=price&order_direc=ASC
+#####e)价格最高：按照一课时价格由高到底排序:   ?order_by=price&order_direc=DESC
+
 
 
 #####筛选条件
