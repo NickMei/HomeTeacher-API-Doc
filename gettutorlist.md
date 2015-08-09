@@ -7,20 +7,27 @@
 GET
 #### Request Parameters
 
+#####顶部搜索教师姓名或者昵称
 | Name | Type | Mandatory | Default | Description |
 | -- | -- | -- | -- | -- |
-| order_by | string | NO | -- | 排序参照列 |
-| order_direc  | string | NO | -- |  ASC(顺序) DESC(逆序)|
 | tutor_name | string | NO | -- | 教师姓名或者昵称 |
+
+
+#####排序
+| Name | Type | Mandatory | Default | Description |
+| -- | -- | -- | -- | -- |
+| order_by | string | NO | -- | 排序参照列： rating（好评） total_class_time（总课时） price（价格）|
+| order_direc  | string | NO | -- |  ASC(顺序) DESC(逆序)|
+
+
+#####筛选条件
+| Name | Type | Mandatory | Default | Description |
+| -- | -- | -- | -- | -- |
 | gender_eng | string | NO | -- | 教师性别： male 或者 female |
 | career | string | NO | -- | 教师职业：在职教师 兼职教师 大学生 |
 | price_min | int | NO | -- | 教师价格最低值 |
 | price_max | int | NO | -- | 教师价格最高值 |
 | district | string | NO | -- |  按照城市区域搜索称 |
-
-
-
-
 #### Response
 | Name | Type | Mandatory | Default | Description |
 | -- | -- | -- | -- | -- |
