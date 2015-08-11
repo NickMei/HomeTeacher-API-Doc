@@ -48,9 +48,7 @@ GET
         "is_teacherCer_auth": false,
         "is_professionalCer_auth": false
     },
-    "comment_info": {
-        "comments": 6,
-        "rating": "98%",
+    "evaluation_info": {
         "like": 8,
         "teach_years": 2,
         "total_students": 5,
@@ -128,7 +126,7 @@ GET
             "case_desc": "通过全面地辅导培训，学生取得了进步，考取了优秀的声乐院校"
         }
     ],
-    "honour_exp__info": [
+    "honour_exp_info": [
         {
             "case_id": "1",
             "start_datetime": "2014-09",
@@ -157,7 +155,20 @@ GET
             "case_title": "123",
             "case_desc": ""
         }
-    ]
+    ],
+    "comment_info": {
+        "num_of_comments": 6,
+        "rating": "4.9",
+        "comments": {
+            "comment_type": "good",
+            "create_datetime": "2014-01-01",
+            "student_id": 1,
+            "student_photo_url": "http://112.74.81.48/zhihuieducation/webApp/app/res/tutor_photo/jz.png",
+            "teach_way": "教员上门",
+            "student_name": "张同学",
+            "comment": "讲解认真专业"
+        }
+    }
 }
 ```
 
