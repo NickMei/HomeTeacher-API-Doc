@@ -14,7 +14,6 @@
    * [getCourseList](getcourselist.md)
    * [getSubCourseList](getsubcourselist.md)
 * [tutorInfo](tutorinfo.md)
-   * [getTutorList](gettutorlist.md)
    * [getTutorDetail](gettutordetail.md)
    * getTutorComment
        * 123
