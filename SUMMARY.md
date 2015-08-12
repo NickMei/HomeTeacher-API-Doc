@@ -18,5 +18,4 @@
    * getTutorComment
        * 123
    * [getTutorList](gettutorlist.md)
-   * getTutorList
 
