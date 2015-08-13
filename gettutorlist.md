@@ -12,6 +12,23 @@ GET
 | -- | -- | -- | -- | -- |
 | tutor_name | string | NO | -- | 教师姓名或者昵称 |
 
+#####按照课程类别搜索
+| Name | Type | Mandatory | Default | Description |
+| -- | -- | -- | -- | -- |
+| stage | string | NO | -- | 阶段，如初中，高中，艺术 |
+| course | string | NO | -- | 课程  如 语文， 数学， 声乐术 |
+| sub_course | string | NO | -- | 细分课程 如 钢琴 水彩 |
+
+
+#####筛选条件
+| Name | Type | Mandatory | Default | Description |
+| -- | -- | -- | -- | -- |
+| gender_eng | string | NO | -- | 教师性别： male 或者 female |
+| career | string | NO | -- | 教师职业：在职教师 兼职教师 大学生 |
+| price_min | int | NO | -- | 教师价格最低值 |
+| price_max | int | NO | -- | 教师价格最高值 |
+| district | string | NO | -- |  按照城市区域搜索称 |
+
 
 #####排序
 | Name | Type | Mandatory | Default | Description |
@@ -29,14 +46,7 @@ GET
 
 
 
-#####筛选条件
-| Name | Type | Mandatory | Default | Description |
-| -- | -- | -- | -- | -- |
-| gender_eng | string | NO | -- | 教师性别： male 或者 female |
-| career | string | NO | -- | 教师职业：在职教师 兼职教师 大学生 |
-| price_min | int | NO | -- | 教师价格最低值 |
-| price_max | int | NO | -- | 教师价格最高值 |
-| district | string | NO | -- |  按照城市区域搜索称 |
+
 #### Response
 | Name | Type | Mandatory | Default | Description |
 | -- | -- | -- | -- | -- |
