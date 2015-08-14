@@ -40,8 +40,6 @@ GET
         "address_url": "http://api.map.baidu.com/staticimage?width=348&height=205%26center=114.15639529324,%2022.581934478848&markers=114.15639529324,22.581934478848&zoom=14&markerStyles=s,A,0xff0000",
         "age": 25
     },
-    "course_info": "高考/语文, 艺术/器乐/钢琴, 留学/GRE",
-    "location_info": "荔湾区, 越秀区, 海珠区, 芳村区",
     "auth_info": {
         "is_identification_auth": true,
         "is_eduCer_auth": true,
@@ -72,6 +70,14 @@ GET
             "major": "物理学"
         }
     ],
+    "teach_course_info": {
+        "course_info": "高考/语文, 艺术/器乐/钢琴, 艺术/美术/水粉",
+        "location_info": "荔湾区, 越秀区, 海珠区, 芳村区",
+        "price_info": {
+            "price_min": "100",
+            "price_max": "250"
+        }
+    },
     "timetable_info": [
         {
             "time": "上午",
@@ -159,14 +165,14 @@ GET
     "comment_info": {
         "num_of_comments": 6,
         "rating": "4.9",
-        "comments": {
+        "comment": {
             "comment_type": "good",
             "create_datetime": "2014-01-01",
             "student_id": 1,
             "student_photo_url": "http://112.74.81.48/zhihuieducation/webApp/app/res/tutor_photo/jz.png",
             "teach_way": "教员上门",
             "student_name": "张同学",
-            "comment": "讲解认真专业"
+            "comment_desc": "讲解认真专业"
         }
     }
 }
