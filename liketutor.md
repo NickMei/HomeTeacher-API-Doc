@@ -3,7 +3,7 @@
 
 #### Description
 1. 用户没有登录的情况下不能赞教员
-2. 赞和取消赞都使用这个API，is_like区分
+2. 赞和取消赞都使用这个API，is_liked区分
 
 #### Resquet Method
 GET
@@ -14,7 +14,7 @@ GET
 | -- | -- | -- | -- | -- |
 | tutor_id | INT | YES | -- |  |
 | student_id | INT | YES | -- |  |
-| is_like | INT | YES | -- | 1 赞 或者 0 取消赞 |
+| is_liked | INT | YES | -- | 1 赞 或者 0 取消赞 |
 
 
 
@@ -27,7 +27,7 @@ GET
 
 #### Request Example
 
-|Request URL | "http://112.74.81.48/zhihuieducation/apitutorinfocontroller/likeTutor?tutor_id=1&student_id=2&is_like=1" |
+|Request URL | "http://112.74.81.48/zhihuieducation/apitutorinfocontroller/likeTutor?tutor_id=1&student_id=2&is_liked=1" |
 | --| -- |
 
 
