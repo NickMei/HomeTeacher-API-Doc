@@ -17,4 +17,5 @@
    * [getTutorDetail](gettutordetail.md)
    * [getTutorList](gettutorlist.md)
    * [getTutorComment](gettutorcomment.md)
+   * likeTutor
 
