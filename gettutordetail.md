@@ -9,7 +9,8 @@ GET
 
 | Name | Type | Mandatory | Default | Description |
 | -- | -- | -- | -- | -- |
-| tutor_id | String | YES | -- |  |
+| tutor_id | String | YES 必填 | -- |  |
+| student_id | String | NO 选填 | -- | 如果用户没有登录就不传 |
 
 
 
@@ -21,7 +22,7 @@ GET
 
 #### Request Example
 
-|Request URL | "http://112.74.81.48/zhihuieducation/apitutorinfocontroller/getTutorDetailInfo?tutor_id=1" |
+|Request URL | "http://112.74.81.48/zhihuieducation/apitutorinfocontroller/getTutorDetailInfo?tutor_id=1&student_id=10" |
 | --| -- |
 
 
