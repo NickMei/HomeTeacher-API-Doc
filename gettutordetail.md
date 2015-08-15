@@ -29,6 +29,11 @@ GET
 
 ```
 {
+    "like_info": {
+        "num_of_like": 8,
+        "is_liked": true,
+        "is_bookmarked": true
+    },
     "basic_info": {
         "name": "陈大文",
         "head_photo": "http://112.74.81.48/zhihuieducation/webApp/app/res/tutor_photo/6.jpg",
@@ -46,8 +51,7 @@ GET
         "is_teacherCer_auth": false,
         "is_professionalCer_auth": false
     },
-    "evaluation_info": {
-        "like": 8,
+    "record_info": {
         "teach_years": 2,
         "total_students": 5,
         "total_class_time": 30
@@ -70,7 +74,7 @@ GET
             "major": "物理学"
         }
     ],
-    "teach_course_info": {
+    "teach_info": {
         "course_info": "高考/语文, 艺术/器乐/钢琴, 艺术/美术/水粉",
         "location_info": "荔湾区, 越秀区, 海珠区, 芳村区",
         "price_info": {
@@ -177,6 +181,19 @@ GET
     }
 }
 ```
+### API变更记录
+
+
+#### 2015-08-15 早上
+1. GET请求参数增加student_id, 如果用户没有登录就传-1
+2. 响应的JSON增加了like_info
+3. evaluation_info 变成了record_info, like赞的个数集成到了like_info里面
+ 
+
+#### 2015-08-14 晚上
+1. 授课科目 区域 价格集成到teach_info
+2. JSON返回的数据和APP展示的顺序一致了
+
 
 
 
