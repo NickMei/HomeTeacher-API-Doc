@@ -7,6 +7,12 @@
 GET
 #### Request Parameters
 
+#####参数
+| Name | Type | Mandatory | Default | Description |
+| -- | -- | -- | -- | -- |
+| longitude | string | NO | -- | 用户位置经度 |
+| latitude | string | NO | -- | 用户位置维度 |
+
 #####顶部搜索教师姓名或者昵称
 | Name | Type | Mandatory | Default | Description |
 | -- | -- | -- | -- | -- |
