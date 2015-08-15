@@ -1,5 +1,5 @@
-# getTutorList
-赞教员
+# likeTutor
+赞教员 或者 取消赞教员
 
 #### Description
 1. 用户没有登录的情况下不能赞教员
