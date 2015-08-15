@@ -29,7 +29,7 @@ GET
 #####筛选条件
 | Name | Type | Mandatory | Default | Description |
 | -- | -- | -- | -- | -- |
-| gender_eng | string | NO | -- | 教师性别： male 或者 female |
+| gender_eng | string | NO | -- | 教师性别：全部 男教员 女教员，  API输入 male 或者 female |
 | career | string | NO | -- | 教师职业：在职教师 兼职教师 大学生 |
 | price_min | int | NO | -- | 教师价格最低值 |
 | price_max | int | NO | -- | 教师价格最高值 |
