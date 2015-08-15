@@ -18,5 +18,5 @@
    * [getTutorList](gettutorlist.md)
    * [getTutorComment](gettutorcomment.md)
    * [likeTutor](liketutor.md)
-   * bookmarkTutor
+   * [bookmarkTutor](bookmarktutor.md)
 
