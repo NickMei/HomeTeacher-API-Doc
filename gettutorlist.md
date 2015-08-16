@@ -19,7 +19,7 @@ GET
 | tutor_name | string | NO | -- | 教师姓名或者昵称 |
 
 #####按照课程类别搜索
-######如果该项选择了全部，就不添加该过滤字段， 或者添加all
+######如果该项选择了全部，就不添加该过滤字段， 或者添加all或者全部
 | Name | Type | Mandatory | Default | Description |
 | -- | -- | -- | -- | -- |
 | stage | string | NO | -- | 阶段，如初中，高中，艺术 |
