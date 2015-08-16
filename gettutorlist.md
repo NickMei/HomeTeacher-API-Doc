@@ -44,7 +44,7 @@ GET
 #####4种排序方式：
 
 #####a)综合排序：现在默认按照好评由高到低排序
-#####  不需要传递任何GET参数或者不添加值 ?order_by=&order_direc=
+#####  不需要传递任何GET参数或者不添加值 ?order_by=general&order_direc=
 #####b)评价最高： 按照好评由高到低排序  ?order_by=rating&order_direc=DESC
 #####c)课时最多： 课时由多到少排序:  ?order_by=total_class_time&order_direc=DESC
 #####d)价格最低：按照一课时价格由低到高排序:  ?order_by=price&order_direc=ASC
