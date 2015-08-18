@@ -36,7 +36,7 @@ GET
 | price_min | int | NO | -- | 教师价格最低值 |
 | price_max | int | NO | -- | 教师价格最高值 |
 | day_eng | string | NO | -- |  星期几：all monday tuesday wednesday thursday friday saturday sunday |
-| period_eng | string | NO | -- |  时段：all morning afternoon evening， day_eng 和 period_eng可自由组合，不传的话默认选择all|
+| period_eng | string | NO | -- |  时段：all morning afternoon evening， day_eng 和 period_eng可自由组合，不传的话默认选择all，相当于不限时段|
 
 
 
