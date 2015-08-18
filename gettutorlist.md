@@ -32,9 +32,12 @@ GET
 | -- | -- | -- | -- | -- |
 | gender_eng | string | NO | -- | 教师性别：全部 男教员 女教员，  API输入 male 或者 female |
 | career | string | NO | -- | 教师职业：在职教师 兼职教师 大学生 |
+| district | string | NO | -- |  按照城市区域搜索称 |
 | price_min | int | NO | -- | 教师价格最低值 |
 | price_max | int | NO | -- | 教师价格最高值 |
-| district | string | NO | -- |  按照城市区域搜索称 |
+| day_eng | string | NO | -- |  星期几：all monday tuesday wednesday thursday friday saturday sunday |
+| period_eng | string | NO | -- |  时段：all morning afternoon evening， day_eng 和 period_eng可自由组合，不传的话默认选择all|
+
 
 
 #####排序
