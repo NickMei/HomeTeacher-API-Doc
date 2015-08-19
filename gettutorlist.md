@@ -21,8 +21,8 @@ GET
 #####分页
 | Name | Type | Mandatory | Default | Description |
 | -- | -- | -- | -- | -- |
-| order_by | string | NO | -- | 排序参照列： general(综合排序)  rating（好评） total_class_time（总课时） price（价格）|
-| order_direc  | string | NO | -- |  ASC(顺序) DESC(逆序)|
+| page |int | NO | 1 | 第几页|
+| limit |int | NO | 6 | 每页个数|
 
 #####按照课程类别搜索
 ######如果该项选择了全部，就不添加该过滤字段， 或者添加all或者全部
