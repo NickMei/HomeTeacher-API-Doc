@@ -21,7 +21,7 @@ GET
 #####分页
 | Name | Type | Mandatory | Default | Description |
 | -- | -- | -- | -- | -- |
-| page |int | NO | 1 | 第几页|
+| page |int | YES | 1 | 第几页|
 | limit |int | NO | 6 | 每页个数|
 
 #####按照课程类别搜索
