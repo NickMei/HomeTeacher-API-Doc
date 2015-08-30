@@ -34,7 +34,7 @@ POST
 ![](request header2.PNG)
 
 #### Fiddler请求截屏
-
+![](fiddler2.PNG)
 
 #####说明：服务器端会用请求体中传来的数据和 服务器存的token request_str 计算checksum，再和请求头中的checksum比较。
 
