@@ -1,6 +1,6 @@
 #auth 
 #### Description
-auth user login account
+登陆认证
 #### Resquet Method
 POST
 
