@@ -29,7 +29,7 @@ POST
 ####JS设置请求头和请求体的逻辑流程
 ![](login2.PNG)
 
-####请求头和请求体截屏样板（要包含 uid identity checksum ）
+####请求头和请求体截屏样板（请求头要包含 uid identity checksum ）
 ![](request header.PNG)
 
 #####说明：服务器端会用请求体中传来的数据和 服务器存的token request_str 计算checksum，再和请求头中的checksum比较。
