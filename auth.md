@@ -9,7 +9,7 @@ POST
 ######uid没有登陆情况下为整形integer零 0
 ######token没有登陆情况下为字符串零 ‘0’
 ######identity 根据用户选择的身份，student 或者 tutor
-######checksum由三个步骤算出，参考下面图片注释，包含token安全验证以及post数据完整性校验功能
+######checksum由三个步骤算出，参考下面图片JS代码和注释，包含token安全验证以及post数据完整性校验功能
 
 | Name | Type | Mandatory | Default | Description |
 | -- | -- | -- | -- | -- |
