@@ -27,6 +27,8 @@ POST
 
 ![](login2.PNG)
 
+####服务器端会用请求体中传来的数据和 token request_str 计算checksum，和请求头中的checksum比较。
+
 #### Response
 | Name | Type | Mandatory | Default | Description |
 | -- | -- | -- | -- | -- |
