@@ -1,6 +1,7 @@
 # Summary
 
 * [introduction](README.md)
+   * student_center
 * [sample](sample/getSearchFilterTypeList.md)
    * student_center
 * [auth](auth.md)
