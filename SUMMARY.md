@@ -4,6 +4,7 @@
 * [sample](sample/getSearchFilterTypeList.md)
 * [auth](auth.md)
    * [auth](auth.md)
+   * logout
 * [location](location.md)
    * [getProvinceList](getprovincelist.md)
    * [getCityList](getcitylist.md)
