@@ -21,11 +21,10 @@ POST
 
 | Name | Type | Mandatory | Default | Description |
 | -- | -- | -- | -- | -- |
-####  实例程序（空对象）：
+####  示例程序（空对象）：
 #####   var query_obj = {};
 #####   var json_str = JSON.stringify(query_obj);
 
-#####说明：服务器端会用请求体中传来的数据和 服务器存的token request_str 计算checksum，再和请求头中的checksum比较。
 
 #### Response
 | Name | Type | Mandatory | Default | Description |
