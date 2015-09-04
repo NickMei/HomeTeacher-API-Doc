@@ -2,7 +2,7 @@
 
 * [introduction](README.md)
    * student_center
-* [sample](sample/getSearchFilterTypeList.md)
+* [student_center](sample/getSearchFilterTypeList.md)
    * student_center
 * [auth](auth.md)
    * [auth](auth.md)
