@@ -24,7 +24,8 @@ POST
 | mobile | String | YES |  | mobile |
 | password    | String | YES |  | md5(password) |
 
-######token没有登陆情况下为字符串零 ‘0’，登陆成功后会返回token，服务器存的token有效期为24小时
+######token没有登陆情况下为字符串零 ‘0’，登陆成功后会返回token，服务器存的token app登陆的话有效期为30天， PC登陆有效期为3天
+
 
 ####JS设置请求头和请求体的逻辑流程
 ![](login3.PNG)
