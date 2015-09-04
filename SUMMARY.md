@@ -5,6 +5,7 @@
 * [student_center](sample/getSearchFilterTypeList.md)
    * [getStudentCourseRecord](getstudentcourserecord.md)
    * [getStudentBasicInfo](getstudentbasicinfo.md)
+   * saveStudentBasicInfo
 * [auth](auth.md)
    * [auth](auth.md)
    * [logout](logout.md)
