@@ -17,11 +17,11 @@ POST
 | checksum    | String | YES |  | checksum|
 
 
-#### Request Parameters (Body) 空对象
+#### Request Parameters (Body) 空对象JSON
 
 | Name | Type | Mandatory | Default | Description |
 | -- | -- | -- | -- | -- |
-####  示例程序（空对象）：
+####  示例程序（空对象JSON）：
 #####   var query_obj = {};
 #####   var json_str = JSON.stringify(query_obj);
 
@@ -29,7 +29,7 @@ POST
 #### Response
 | Name | Type | Mandatory | Default | Description |
 | -- | -- | -- | -- | -- |
-| Logout Response | JSON | YES| | Logout Response |
+| Response | JSON | YES| | Response |
 
 
 #### Request Example
@@ -46,9 +46,12 @@ POST
     retcode: 0, 
     retmsg: "成功请求！",
     response: {
-        "total_class_time":"6", //学生总学时
-        "total_tutor":"2", //学生总的老师数量
-        "total_comment":"2" //学生对老师作出的评价数量 
+        "name" :  "梅同学",
+        "nickname" :  "小梅",
+        "gender" :  "男",
+        "grade" :  "高中一年级",
+        "city" :  "深圳",
+        "address" :  "深圳市盐田区沿湖路",
     }
 }
 
