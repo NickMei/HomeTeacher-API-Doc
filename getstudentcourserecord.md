@@ -17,7 +17,7 @@ POST
 | checksum    | String | YES |  | checksum|
 
 
-#### Request Parameters (Body) 
+#### Request Parameters (Body) 空对象
 
 | Name | Type | Mandatory | Default | Description |
 | -- | -- | -- | -- | -- |
