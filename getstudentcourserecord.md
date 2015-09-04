@@ -46,9 +46,9 @@ POST
     retcode: 0, 
     retmsg: "成功请求！",
     response: {
-        "total_class_time":"6",
-        "total_tutor":"2",
-        "total_comment":"2"
+        "total_class_time":"6", //学生总学时
+        "total_tutor":"2", //学生总的老师数量
+        "total_comment":"2" //学生对老师作出的评价数量 
     }
 }
 
