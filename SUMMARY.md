@@ -3,7 +3,7 @@
 * [introduction](README.md)
    * student_center
 * [student_center](sample/getSearchFilterTypeList.md)
-   * getStudentCourseRecord
+   * [getStudentCourseRecord](getstudentcourserecord.md)
 * [auth](auth.md)
    * [auth](auth.md)
    * [logout](logout.md)
