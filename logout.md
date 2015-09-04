@@ -25,17 +25,12 @@ POST
 #####   var query_obj = {};
 #####   var json_str = JSON.stringify(query_obj);
 
-
-######token没有登陆情况下为字符串零 ‘0’，登陆成功后会返回token，服务器存的token app登陆的话有效期为30天， PC登陆有效期为3天
-
-
-
 #####说明：服务器端会用请求体中传来的数据和 服务器存的token request_str 计算checksum，再和请求头中的checksum比较。
 
 #### Response
 | Name | Type | Mandatory | Default | Description |
 | -- | -- | -- | -- | -- |
-| Auth Response | JSON | YES| | Auth Response |
+| Logout Response | JSON | YES| | Logout Response |
 
 
 #### Request Example
