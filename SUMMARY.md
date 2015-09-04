@@ -2,6 +2,7 @@
 
 * [introduction](README.md)
 * [sample](sample/getSearchFilterTypeList.md)
+   * student_center
 * [auth](auth.md)
    * [auth](auth.md)
    * [logout](logout.md)
