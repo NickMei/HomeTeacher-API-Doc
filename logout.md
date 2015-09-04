@@ -17,10 +17,13 @@ POST
 | checksum    | String | YES |  | checksum|
 
 
-#### Request Parameters (Body)
+#### Request Parameters (Body) 
 
 | Name | Type | Mandatory | Default | Description |
 | -- | -- | -- | -- | -- |
+####  实例程序（空对象）：
+#####   var query_obj = {};
+#####   var json_str = JSON.stringify(query_obj);
 
 
 ######token没有登陆情况下为字符串零 ‘0’，登陆成功后会返回token，服务器存的token app登陆的话有效期为30天， PC登陆有效期为3天
