@@ -6,6 +6,7 @@
    * [getStudentCourseRecord](getstudentcourserecord.md)
    * [getStudentBasicInfo](getstudentbasicinfo.md)
    * [saveStudentBasicInfo](savestudentbasicinfo.md)
+   * getStudentOrderList
 * [auth](auth.md)
    * [auth](auth.md)
    * [logout](logout.md)
