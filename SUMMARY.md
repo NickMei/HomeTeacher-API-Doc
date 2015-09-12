@@ -10,6 +10,7 @@
    * [getStudentGradeList](getstudentgradelist.md)
 * [auth](auth.md)
    * [logout](logout.md)
+   * login
 * [location](location.md)
    * [getProvinceList](getprovincelist.md)
    * [getOpenCityList](getopencitylist.md)
