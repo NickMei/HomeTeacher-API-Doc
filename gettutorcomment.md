@@ -21,7 +21,7 @@ GET
 
 #### Request Example
 
-|Request URL | "http://112.74.81.48/zhihuieducation/apitutorinfocontroller/getTutorComment?tutor_id=1&comment_type=all" |
+|Request URL | "http://112.74.81.48/zhihuieducation/tutorinfo/getTutorComment?tutor_id=1&comment_type=all" |
 | --| -- |
 
 
