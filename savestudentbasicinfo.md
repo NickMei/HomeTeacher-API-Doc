@@ -40,7 +40,7 @@ POST
 
 #### Request Example
 
-|Request URL | "http://112.74.81.48/zhihuieducation/apistudentcentercontroller/saveStudentBasicInfo" |
+|Request URL | "http://112.74.81.48/zhihuieducation/studentcenter/saveStudentBasicInfo" |
 | --| -- |
 | | |
 
