@@ -20,7 +20,7 @@ GET
 
 #### Request Example
 
-|Request URL | "http://112.74.81.48/zhihuieducation/locationcontroller/getCityList?provinceID=19" |
+|Request URL | "http://112.74.81.48/zhihuieducation/location/getCityList?provinceID=19" |
 | --| -- |
 
 
