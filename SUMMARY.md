@@ -2,7 +2,7 @@
 
 * [introduction](README.md)
    * student_center
-* [student_center](sample/getSearchFilterTypeList.md)
+* [studentcenter](sample/getSearchFilterTypeList.md)
    * [getStudentCourseRecord](getstudentcourserecord.md)
    * [getStudentBasicInfo](getstudentbasicinfo.md)
    * [saveStudentBasicInfo](savestudentbasicinfo.md)
