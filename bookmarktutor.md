@@ -27,7 +27,7 @@ GET
 
 #### Request Example
 
-|Request URL | "http://112.74.81.48/zhihuieducation/apitutorinfocontroller/bookmarkTutor?tutor_id=1&student_id=2&is_bookmarked=1" |
+|Request URL | "http://112.74.81.48/zhihuieducation/tutorinfo/bookmarkTutor?tutor_id=1&student_id=2&is_bookmarked=1" |
 | --| -- |
 
 
