@@ -71,7 +71,7 @@ GET
 
 #### Request Example
 
-|Request URL | "http://112.74.81.48/zhihuieducation/apitutorinfocontroller/getTutorList" |
+|Request URL | "http://112.74.81.48/zhihuieducation/tutorinfo/getTutorList" |
 | --| -- |
 
 
