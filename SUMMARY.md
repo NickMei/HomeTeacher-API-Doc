@@ -7,6 +7,7 @@
    * [getStudentBasicInfo](getstudentbasicinfo.md)
    * [saveStudentBasicInfo](savestudentbasicinfo.md)
    * [getStudentOrderList](getstudentorderlist.md)
+   * getOpenCityList
 * [auth](auth.md)
    * [logout](logout.md)
 * [location](location.md)
