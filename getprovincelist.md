@@ -2,6 +2,10 @@
 
 #### Description
 get province list
+
+#### 请求是否要认证
+NO
+
 #### Resquet Method
 GET
 #### Request Parameters
