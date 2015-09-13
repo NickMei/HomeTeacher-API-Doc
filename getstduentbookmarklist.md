@@ -1,6 +1,10 @@
 #getStudentBookmarkList
 #### Description
 学生个人中心请求学生收藏的教师列表
+
+#### 请求是否要认证
+YES
+
 #### Resquet Method
 POST
 
