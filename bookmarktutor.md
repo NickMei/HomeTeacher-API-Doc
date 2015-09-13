@@ -4,6 +4,10 @@
 #### Description
 1. 用户没有登录的情况下不能收藏教员
 2. 收藏和取消收藏都使用这个API，is_bookmarked
+ 
+
+#### 请求是否要认证
+YES
 
 #### Resquet Method
 GET
