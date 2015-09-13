@@ -1,6 +1,11 @@
 #getStudentCourseRecord 
 #### Description
 学生个人中心请求我的学习时长， 我的老师， 我的评价
+
+#### 请求是否要认证
+YES
+
+
 #### Resquet Method
 POST
 
