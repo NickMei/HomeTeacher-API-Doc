@@ -2,6 +2,10 @@
 
 
 #### Description
+教师的评价列表
+
+#### 请求是否要认证
+NO
 
 #### Resquet Method
 GET
