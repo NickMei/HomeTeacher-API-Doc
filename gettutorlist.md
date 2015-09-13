@@ -1,7 +1,11 @@
 # getTutorList
-获取教师列表
 
 #### Description
+获取教师列表
+
+
+#### 请求是否要认证
+NO
 
 #### Resquet Method
 GET
