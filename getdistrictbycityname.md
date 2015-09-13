@@ -2,6 +2,11 @@
 
 #### Description
 get district list by city chinese name
+
+#### 请求是否要认证
+NO
+
+
 #### Resquet Method
 GET
 #### Request Parameters
