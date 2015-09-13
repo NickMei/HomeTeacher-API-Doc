@@ -8,6 +8,7 @@
    * [saveStudentBasicInfo](savestudentbasicinfo.md)
    * [getStudentOrderList](getstudentorderlist.md)
    * [getStudentGradeList](getstudentgradelist.md)
+   * getStduentBookmarkList
 * [auth](auth.md)
    * [logout](logout.md)
    * [login](login.md)
