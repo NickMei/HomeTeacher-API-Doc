@@ -2,6 +2,10 @@
 
 #### Description
 get city list by province ID
+
+#### 请求是否要认证
+NO
+
 #### Resquet Method
 GET
 #### Request Parameters
