@@ -3,6 +3,11 @@
 
 #### Description
 get course list such as:  全部 器乐 声乐 舞蹈 美术 书法 其它
+
+#### 请求是否要认证
+NO
+
+
 #### Resquet Method
 GET
 #### Request Parameters
