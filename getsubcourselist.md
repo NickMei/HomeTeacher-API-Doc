@@ -3,6 +3,11 @@
 
 #### Description
 get sub course list such as:  全部 芭蕾舞 拉丁舞 街舞 现代舞 爵士舞 古典舞 民族舞 健美操 民间舞 国标舞 迪斯科 其它
+
+#### 请求是否要认证
+NO
+
+
 #### Resquet Method
 GET
 #### Request Parameters
