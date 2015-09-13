@@ -1,6 +1,10 @@
 #logout 
 #### Description
 登出
+
+#### 请求是否要认证
+YES
+
 #### Resquet Method
 POST
 
