@@ -4,6 +4,10 @@
 #### Description
 1. 用户没有登录的情况下不能赞教员
 2. 赞和取消赞都使用这个API，is_liked区分
+3. 
+
+#### 请求是否要认证
+YES
 
 #### Resquet Method
 GET
