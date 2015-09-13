@@ -1,6 +1,10 @@
 #saveStudentBasicInfo
 #### Description
 学生个人中心保存我的资料
+
+#### 请求是否要认证
+YES
+
 #### Resquet Method
 POST
 
