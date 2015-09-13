@@ -1,6 +1,11 @@
 #getStudentBasicInfo
 #### Description
 学生个人中心请求我的资料
+
+#### 请求是否要认证
+NO
+
+
 #### Resquet Method
 POST
 
