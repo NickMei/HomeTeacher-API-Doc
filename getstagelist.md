@@ -2,6 +2,10 @@
 
 #### Description
 get stage list such as:  小学 小升初 初中 中考 高中 高考 大学 语言 留学 艺术 体育 心理
+
+#### 请求是否要认证
+NO
+
 #### Resquet Method
 GET
 #### Request Parameters
