@@ -5,7 +5,7 @@
 获取教师个人详细信息
 
 #### 请求是否要认证
-NO
+YES
 
 
 #### Resquet Method
