@@ -1,6 +1,11 @@
 #login 
 #### Description
 登陆认证
+
+#### 请求是否要认证
+YES
+
+
 #### Resquet Method
 POST
 
