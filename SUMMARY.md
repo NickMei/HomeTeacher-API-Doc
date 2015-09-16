@@ -9,7 +9,7 @@
    * [getStudentOrderList](getstudentorderlist.md)
    * [getStudentGradeList](getstudentgradelist.md)
    * [getStduentBookmarkList](getstduentbookmarklist.md)
-   * getStudentCommentList
+   * [getStudentCommentList](getstudentcommentlist.md)
 * [auth](auth.md)
    * [logout](logout.md)
    * [login](login.md)
