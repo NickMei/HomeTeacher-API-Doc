@@ -1,6 +1,6 @@
 #getStudenCommentList
 #### Description
-学生个人中心请求我的评价列表
+学生个人中心请求学生对老师的评价列表
 
 #### 请求是否要认证
 YES
