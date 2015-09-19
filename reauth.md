@@ -30,7 +30,7 @@ POST
 | -- | -- | -- | -- | -- |
 | password    | String | YES |  | md5(password) |
 示例： 
-password是md5之后的值
+######password是md5之后的值
 {'password': 'asccfsdfr35trgfdsg4554'}
 
 #### Response
