@@ -13,7 +13,7 @@
 * [auth](auth.md)
    * [logout](logout.md)
    * [login](login.md)
-   * reauth
+   * [reauth](reauth.md)
 * [location](location.md)
    * [getProvinceList](getprovincelist.md)
    * [getOpenCityList](getopencitylist.md)
