@@ -29,7 +29,9 @@ POST
 | Name | Type | Mandatory | Default | Description |
 | -- | -- | -- | -- | -- |
 | password    | String | YES |  | md5(password) |
-示例： {'password': 'asccfsdfr35trgfdsg4554'}
+示例： 
+password是md5之后的值
+{'password': 'asccfsdfr35trgfdsg4554'}
 
 #### Response
 | Name | Type | Mandatory | Default | Description |
