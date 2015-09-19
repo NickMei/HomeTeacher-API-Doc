@@ -1,8 +1,8 @@
-#reauth 
+#changePassword 
 #### Description
 个人中心--设置--修改个人登录密码
-#####在个人中心--设置中--修改绑定手机时使用
-##### uid checksum要使用登陆态后的值， 不要用 0 和‘0’
+
+##### uid和checksum要使用登陆态后的值， 不要用 0 和‘0’
 
 #### 请求是否要认证
 YES
@@ -27,10 +27,11 @@ POST
 
 | Name | Type | Mandatory | Default | Description |
 | -- | -- | -- | -- | -- |
-| password    | String | YES |  | md5(password) |
+| old_password    | String | YES |  | 现有密码 md5(password) |
+| new_password    | String | YES |  | 新密码 md5(password) |
 示例： 
 ######password是md5之后的值
-{'password': 'asccfsdfr35trgfdsg4554'}
+{"old_password": "250cf8b51c773f3f8dc8b4be867a9a02", "new_password": "202cb962ac59075b964b07152d234b70"}
 
 #### Response
 | Name | Type | Mandatory | Default | Description |
@@ -40,7 +41,7 @@ POST
 
 #### Request Example
 
-|Request URL | "http://112.74.81.48/zhihuieducation/auth/reauth" |
+|Request URL | "http://112.74.81.48/zhihuieducation/auth/changePassword" |
 | --| -- |
 | | |
 
@@ -51,7 +52,7 @@ POST
 ```
 {
     retcode: 0, 
-    retmsg: "成功认证",
+    retmsg: "成功修改密码",
     response: {
         token: "d57c8ab7e18df9cd261892ba81578c8ccbea3f02",
         token_timestamp: "1445223717"
@@ -61,7 +62,14 @@ POST
 其他错误响应情况
 {
     retcode: 1, 
-    retmsg: "验证密码错误",
+    retmsg: "验证旧有密码错误",
+    response: {
+    }
+}
+
+{
+    retcode: 1, 
+    retmsg: "更改密码错误",
     response: {
     }
 }
