@@ -14,7 +14,7 @@
    * [logout](logout.md)
    * [login](login.md)
    * [reauth](reauth.md)
-   * changePassword
+   * [changePassword](changepassword.md)
 * [location](location.md)
    * [getProvinceList](getprovincelist.md)
    * [getOpenCityList](getopencitylist.md)
