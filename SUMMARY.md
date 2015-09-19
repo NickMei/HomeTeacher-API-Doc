@@ -16,7 +16,7 @@
    * [reauth](reauth.md)
    * [changePassword](changepassword.md)
    * sendMsg
-   * authMsg
+   * [authMsg](authmsg.md)
 * [location](location.md)
    * [getProvinceList](getprovincelist.md)
    * [getOpenCityList](getopencitylist.md)
