@@ -54,7 +54,7 @@ POST
         "count" :  2, //满足条件总的个数，大于等于当前个数
         "list" :  [
             {
-                order_id: "1",
+                tutor_id: "1",
                 head_photo："http://112.74.81.48/zhihuieducation/webApp/app/res/tutor_photo/6.jpg”,
                 name: "陈大文",
                 course: "高考/语文, 艺术/器乐/钢琴, 艺术/美术/水粉"
