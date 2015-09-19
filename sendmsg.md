@@ -45,7 +45,6 @@ POST
 | | |
 
 #### Response Example
-##### 需要用返回的token和token_timestamp刷新客户端登录态
 
 #####只有retcode 为0 才是成功响应，其他都是错误响应
 ```
