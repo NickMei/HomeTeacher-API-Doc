@@ -49,22 +49,14 @@ POST
 ```
 {
     retcode: 0, 
-    retmsg: "成功登陆",
+    retmsg: "成功认证",
     response: {
-        token: "d57c8ab7e18df9cd261892ba81578c8ccbea3f02"
+        token: "d57c8ab7e18df9cd261892ba81578c8ccbea3f02",
+        token_timestamp: "1445223717"
     }
 }
 
 其他错误响应情况
-
-{
-    retcode: 1, 
-    retmsg: "此用户不存在",
-    response: {
-    }
-}
-
-
 {
     retcode: 1, 
     retmsg: "验证密码错误",
