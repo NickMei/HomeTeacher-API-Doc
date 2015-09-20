@@ -23,7 +23,7 @@ POST
 #### Response
 | Name | Type | Mandatory | Default | Description |
 | -- | -- | -- | -- | -- |
-| Auth Response | JSON | YES| | Auth Response |
+| Auth Response | JSON | YES| | Response |
 
 
 #### Request Example
