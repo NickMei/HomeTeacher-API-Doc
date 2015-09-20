@@ -33,4 +33,5 @@
    * [getTutorComment](gettutorcomment.md)
    * [likeTutor](liketutor.md)
    * [bookmarkTutor](bookmarktutor.md)
+* helpcenter
 
