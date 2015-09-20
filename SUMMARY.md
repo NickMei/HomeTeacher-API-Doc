@@ -34,5 +34,5 @@
    * [likeTutor](liketutor.md)
    * [bookmarkTutor](bookmarktutor.md)
 * helpcenter
-   * advice
+   * [advice](advice.md)
 
