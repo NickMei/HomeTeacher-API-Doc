@@ -48,8 +48,14 @@ POST
 #####只有retcode 为0 才是成功响应，其他都是错误响应
 ```
 1) 获取学员作出的的评论
-request
-{"target": "tutor", "tutor_id": "1",  "comment_type": "comment_all"}
+request header:
+POST http://112.74.81.48/zhihuieducation/studentcenter/getCommentList HTTP/1.1
+uid: 3
+identity: student
+checksum: a5981159ab5101f244972c8387c529f7
+
+request body:
+{"target": "student",  "comment_type": "comment_all"}
 
 response
 {
@@ -72,7 +78,10 @@ response
 }
 
 2) 获取教员的评论
-request
+request header
+POST http://112.74.81.48/zhihuieducation/studentcenter/getCommentList HTTP/1.1
+
+request body
 {"target": "tutor", "tutor_id": "1",  "comment_type": "comment_all"}
 
 response
