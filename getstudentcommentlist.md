@@ -59,12 +59,13 @@ response
         "count" :  1, //满足条件总个数
         "list" :  [
             {
-                "head_photo": "http://112.74.81.48/zhihuieducation/webApp/app/res/tutor_photo/6.jpg",
-                "name": "陈大文",    
-                "order_id" : "1",  
+                "comment_type": "好评",
+                "create_time": "2015-04-09 08:32:42",
+                "order_id" : "1", 
                 "student_comment": "老师很好！",
                 "student_rating": "4",
-                "type": "好评"
+                "tutor_head_photo": "http://112.74.81.48/zhihuieducation/webApp/app/res/tutor_photo/6.jpg",
+                "tutor_name": "陈大文",    
             }
         ]
     }
@@ -80,6 +81,7 @@ response
     retmsg: "成功请求！",
     response: {
         "count" :  1, //满足条件总个数
+        "total_rating": 4.5,
         "list" :  [
             {
                 comment_type: "好评",
