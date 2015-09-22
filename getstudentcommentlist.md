@@ -1,9 +1,10 @@
 #getCommentList
 #### Description
-学生个人中心请求学生对老师的评价列表
+学生个人中心请求该学生对所有老师作出的的评价列表(需要验证)
 
+教师详情页请求学生对该老师的评价列表(不需要验证)
 #### 请求是否要认证
-YES
+一个要一个不要
 
 #### Resquet Method
 POST
@@ -25,9 +26,9 @@ POST
 
 | Name | Type | Mandatory | Default | Description |
 | -- | -- | -- | -- | -- |
+| target | STRING | YES | -- | student(该学生作出的评论)  tutor(该教师得到的评论) |
 | comment_type | STRING | YES | -- | comment_all（全部） comment_good（好评）  comment_middle（中评）   comment_bad（差评） |
-####  示例程序：
-#####  {"comment_type":"comment_all"}
+
 
 
 
@@ -47,7 +48,7 @@ POST
 
 #####只有retcode 为0 才是成功响应，其他都是错误响应
 ```
-1) 获取学员作出的的评论
+1) 获取学员作出的的评论， 要验证
 request header:
 POST http://112.74.81.48/zhihuieducation/studentcenter/getCommentList HTTP/1.1
 uid: 3
@@ -77,7 +78,7 @@ response
     }
 }
 
-2) 获取教员的评论
+2) 获取教员的评论， 不需验证
 request header
 POST http://112.74.81.48/zhihuieducation/studentcenter/getCommentList HTTP/1.1
 
