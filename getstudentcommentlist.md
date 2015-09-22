@@ -25,7 +25,7 @@ POST
 
 | Name | Type | Mandatory | Default | Description |
 | -- | -- | -- | -- | -- |
-| order_type | STRING | YES | -- | comment_all（全部） comment_good（好评）  comment_middle（中评）   comment_bad（差评） |
+| comment_type | STRING | YES | -- | comment_all（全部） comment_good（好评）  comment_middle（中评）   comment_bad（差评） |
 ####  示例程序：
 #####  {"comment_type":"comment_all"}
 
