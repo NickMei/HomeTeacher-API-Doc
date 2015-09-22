@@ -1,4 +1,4 @@
-#getStudenCommentList
+#getCommentList
 #### Description
 学生个人中心请求学生对老师的评价列表
 
@@ -39,7 +39,7 @@ POST
 
 #### Request Example
 
-|Request URL | "http://112.74.81.48/zhihuieducation/studentcenter/getStudentCommentList" |
+|Request URL | "http://112.74.81.48/zhihuieducation/studentcenter/getCommentList" |
 | --| -- |
 | | |
 
@@ -47,6 +47,11 @@ POST
 
 #####只有retcode 为0 才是成功响应，其他都是错误响应
 ```
+1) 获取学员作出的的评论
+request
+{"target": "tutor", "tutor_id": "1",  "comment_type": "comment_all"}
+
+response
 {
     retcode: 0, 
     retmsg: "成功请求！",
@@ -64,6 +69,32 @@ POST
         ]
     }
 }
+
+2) 获取教员的评论
+request
+{"target": "tutor", "tutor_id": "1",  "comment_type": "comment_all"}
+
+response
+{
+    retcode: 0, 
+    retmsg: "成功请求！",
+    response: {
+        "count" :  1, //满足条件总个数
+        "list" :  [
+            {
+                comment_type: "好评",
+                create_time: "2015-04-09 08:32:42",
+                order_id: 1,
+                student_comment: "老师很好！",
+                student_head_photo: "http://112.74.81.48/zhihuieducation/webApp/app/res/tutor_photo/gd3.jpg",
+                student_name: "梅由之",
+                student_rating: 4,
+                teach_way: "老师上门"
+            }
+        ]
+    }
+}
+
 
 其他错误响应情况
 
