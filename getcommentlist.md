@@ -50,7 +50,7 @@ POST
 ```
 1) 获取学员作出的的评论， 要验证
 request header:
-POST http://112.74.81.48/zhihuieducation/studentcenter/getCommentList HTTP/1.1
+POST http://112.74.81.48/zhihuieducation/studentcenter/getCommentList 
 uid: 3
 identity: student
 checksum: a5981159ab5101f244972c8387c529f7
@@ -80,7 +80,7 @@ response
 
 2) 获取教员的评论， 不需验证
 request header
-POST http://112.74.81.48/zhihuieducation/studentcenter/getCommentList HTTP/1.1
+POST http://112.74.81.48/zhihuieducation/studentcenter/getCommentList
 
 request body
 {"target": "tutor", "tutor_id": "1",  "comment_type": "comment_all"}
@@ -91,7 +91,7 @@ response
     retmsg: "成功请求！",
     response: {
         "count" :  1, //满足条件总个数
-        "total_rating": 4.5,
+        "average_rating": 4.5,
         "list" :  [
             {
                 comment_type: "好评",
