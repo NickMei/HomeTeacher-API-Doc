@@ -52,7 +52,7 @@ POST
     retcode: 0, 
     retmsg："请求成功！",
     response: {
-        msgcode: "120708" //仅供调试使用，上线后收短信验证码
+        msgcode: "120708" //仅供调试使用，上线后手机收短信验证码
     }
 }
 
