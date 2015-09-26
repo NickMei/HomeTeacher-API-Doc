@@ -27,10 +27,11 @@ POST
 
 | Name | Type | Mandatory | Default | Description |
 | -- | -- | -- | -- | -- |
+| target    | String | YES |  | 请求目的，change_mobile, register |
 | mobile    | String | YES |  | 需要绑定的新手机号码 |
 
 示例： 
-{"mobile": "13609876789"}
+{"target":"change_mobile", "mobile": "13609876789"}
 
 #### Response
 | Name | Type | Mandatory | Default | Description |
