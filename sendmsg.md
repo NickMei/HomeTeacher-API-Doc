@@ -1,7 +1,7 @@
 #sendMsg 
 #### Description
-个人中心--设置--发送验证码到新手机号码
-
+个人中心--设置--发送验证码到新手机号码(需要身份验证)
+注册--验证手机号码(不需要身份验证)
 ##### uid和checksum要使用登陆态后的值， 不要用 0 和‘0’
 
 #### 请求是否要认证
@@ -27,7 +27,7 @@ POST
 
 | Name | Type | Mandatory | Default | Description |
 | -- | -- | -- | -- | -- |
-| target    | String | YES |  | 请求目的，change_mobile, register |
+| target    | String | YES |  | 请求目的，change_mobile, 或者 register |
 | mobile    | String | YES |  | 需要绑定的新手机号码 |
 
 示例： 
