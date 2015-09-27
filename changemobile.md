@@ -27,10 +27,11 @@ POST
 
 | Name | Type | Mandatory | Default | Description |
 | -- | -- | -- | -- | -- |
+| target    | String | YES |  | 请求目的，change_mobile, 或者 register |
 | mobile    | String | YES |  | 需要绑定的新手机号码 |
 | msgcode    | String | YES |  | 新手机接收的的短信验证码 |
 示例： 
-{"mobile": "13609876789", "msgcode": "120708"}
+{"target":"change_mobile", "mobile": "13609876789", "msgcode": "120708"}
 
 #### Response
 | Name | Type | Mandatory | Default | Description |
