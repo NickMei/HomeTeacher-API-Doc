@@ -1,6 +1,7 @@
-#changeMobile 
+#authMsgCode 
 #### Description
-个人中心--设置--修改个人绑定手机号码
+个人中心--设置--修改个人绑定手机号码--验证新手机短信码
+注册--验证短信验证码
 
 ##### uid和checksum要使用登陆态后的值， 不要用 0 和‘0’
 
@@ -28,8 +29,8 @@ POST
 | Name | Type | Mandatory | Default | Description |
 | -- | -- | -- | -- | -- |
 | target    | String | YES |  | 请求目的，change_mobile, 或者 register |
-| mobile    | String | YES |  | 需要绑定的新手机号码 |
-| msgcode    | String | YES |  | 新手机接收的的短信验证码 |
+| mobile    | String | YES |  | 新手机号码 |
+| msgcode    | String | YES |  | 手机接收的的短信验证码 |
 示例： 
 {"target":"change_mobile", "mobile": "13609876789", "msgcode": "120708"}
 
@@ -41,7 +42,7 @@ POST
 
 #### Request Example
 
-|Request URL | "http://112.74.81.48/zhihuieducation/auth/changeMobile" |
+|Request URL | "http://112.74.81.48/zhihuieducation/auth/authMsgCode" |
 | --| -- |
 | | |
 
