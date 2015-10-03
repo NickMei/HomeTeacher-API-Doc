@@ -1,4 +1,4 @@
-#setPassword 
+#registerAccount 
 #### Description
 个人中心--注册--设置个人登录密码并且生成注册账号
 
@@ -10,29 +10,17 @@ NO
 POST
 
 
-#### Request Header 请求头中传的参数
-######uid没有登陆情况下为整形integer零 0， 登陆成功后会返回user_id
-######identity 根据用户选择的身份，student 或者 tutor
-######checksum由三个步骤算出，参考下面图片JS代码和注释，包含token安全验证以及post数据完整性校验功能
-
-| Name | Type | Mandatory | Default | Description |
-| -- | -- | -- | -- | -- |
-| uid | int | YES |  | 0 |
-| identity    | String | YES |  | tutor 或者 student|
-| checksum    | String | YES |  | checksum|
-
-
 #### Request Parameters (Body)
 
 | Name | Type | Mandatory | Default | Description |
 | -- | -- | -- | -- | -- |
-| mobile    | String | YES | YES | 注册第一步已经验证过的手机号 |
 | identity    | String | YES | YES | 注册第二步选择的身份 student或者tutor |
+| mobile    | String | YES | YES | 注册第一步已经验证过的手机号 |
 | password    | String | YES |  | 登陆密码 md5(password) |
 | token    | String | YES |  | 第一步成功认证手机号码之后服务器返回的 |
 示例： 
 ######password是md5之后的值
-{"old_password": "250cf8b51c773f3f8dc8b4be867a9a02", "new_password": "202cb962ac59075b964b07152d234b70"}
+{"identity": "tutor", "mobile": "18682200760", "password":"202cb962ac59075b964b07152d234b70",  "token": "a1910293add748a53092f7b2e778d9100d79a719"}
 
 #### Response
 | Name | Type | Mandatory | Default | Description |
@@ -42,7 +30,7 @@ POST
 
 #### Request Example
 
-|Request URL | "http://112.74.81.48/zhihuieducation/auth/setPassword" |
+|Request URL | "http://112.74.81.48/zhihuieducation/auth/registerAccount" |
 | --| -- |
 | | |
 
@@ -53,24 +41,21 @@ POST
 ```
 {
     retcode: 0, 
-    retmsg: "成功修改密码",
-    response: {
-        token: "d57c8ab7e18df9cd261892ba81578c8ccbea3f02",
-        token_timestamp: "1445223717"
-    }
+    retmsg: "注册账号18682200760成功",
+    response: {}
 }
 
 其他错误响应情况
 {
     retcode: 1, 
-    retmsg: "验证旧有密码错误",
+    retmsg: "注册账号18682200760失败，请重新尝试",
     response: {
     }
 }
 
 {
     retcode: 1, 
-    retmsg: "更改密码错误",
+    retmsg: "手机号码认证码错误，请重新验证手机",
     response: {
     }
 }
