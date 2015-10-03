@@ -17,7 +17,7 @@
    * [changePassword](changepassword.md)
    * [sendMsg](sendmsg.md)
    * [authMsgCode](authmsgcodemd.md)
-   * [setPassword](setpassword.md)
+   * [registerAccount](registeraccount.md)
 * [location](location.md)
    * [getProvinceList](getprovincelist.md)
    * [getOpenCityList](getopencitylist.md)
