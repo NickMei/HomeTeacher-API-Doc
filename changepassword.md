@@ -25,13 +25,26 @@ POST
 
 #### Request Parameters (Body)
 
+####目标：修改密码change_password
 | Name | Type | Mandatory | Default | Description |
 | -- | -- | -- | -- | -- |
+| target    | String | YES |  | 目标：修改密码（change_password）或者 重置密码（reset_password） |
 | old_password    | String | YES |  | 现有密码 md5(password) |
 | new_password    | String | YES |  | 新密码 md5(password) |
 示例： 
 ######password是md5之后的值
 {"old_password": "250cf8b51c773f3f8dc8b4be867a9a02", "new_password": "202cb962ac59075b964b07152d234b70"}
+
+
+####目标：修改密码reset_password
+| Name | Type | Mandatory | Default | Description |
+| -- | -- | -- | -- | -- |
+| target    | String | YES |  | 目标：修改密码（change_password）或者 重置密码（reset_password） |
+| new_password    | String | YES |  | 新密码 md5(password) |
+| token    | String | YES |  | 第一步成功认证手机号码之后服务器返回的 |
+示例： 
+######password是md5之后的值
+{"new_password": "202cb962ac59075b964b07152d234b70", "token": "",}
 
 #### Response
 | Name | Type | Mandatory | Default | Description |
@@ -41,7 +54,7 @@ POST
 
 #### Request Example
 
-|Request URL | "http://112.74.81.48/zhihuieducation/auth/changePassword" |
+|Request URL | "http://112.74.81.48/zhihuieducation/auth/modifyPassword" |
 | --| -- |
 | | |
 
@@ -49,17 +62,18 @@ POST
 ##### 需要用返回的token和token_timestamp刷新客户端登录态
 
 #####只有retcode 为0 才是成功响应，其他都是错误响应
+####目标：修改密码change_password
 ```
 {
     retcode: 0, 
-    retmsg: "成功修改密码",
+    retmsg: "修改密码成功 ",
     response: {
         token: "d57c8ab7e18df9cd261892ba81578c8ccbea3f02",
         token_timestamp: "1445223717"
     }
 }
 
-其他错误响应情况
+其它错误响应
 {
     retcode: 1, 
     retmsg: "验证旧有密码错误",
@@ -81,6 +95,26 @@ POST
     response: {
     }
 }
+```
+
+
+####目标：修改密码reset_password
+```
+{
+    retcode: 0, 
+    retmsg: "重置密码成功",
+    response: {}
+}
+
+{
+    retcode: 1, 
+    retmsg: "重置密码失败，请重试",
+    response: {}
+}
+```
+
+
+
 ```
 
 
