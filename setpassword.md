@@ -2,10 +2,9 @@
 #### Description
 个人中心--注册--设置个人登录密码并且生成注册账号
 
-##### uid和checksum要使用登陆态后的值， 不要用 0 和‘0’
 
 #### 请求是否要认证
-YES
+NO
 
 #### Resquet Method
 POST
@@ -28,7 +27,9 @@ POST
 | Name | Type | Mandatory | Default | Description |
 | -- | -- | -- | -- | -- |
 | mobile    | String | YES | YES | 注册第一步已经验证过的手机号 |
+| identity    | String | YES | YES | 注册第二步选择的身份 student或者tutor |
 | password    | String | YES |  | 登陆密码 md5(password) |
+| token    | String | YES |  | 第一步成功认证手机号码之后服务器返回的 |
 示例： 
 ######password是md5之后的值
 {"old_password": "250cf8b51c773f3f8dc8b4be867a9a02", "new_password": "202cb962ac59075b964b07152d234b70"}
