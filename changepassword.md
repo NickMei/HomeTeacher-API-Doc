@@ -1,11 +1,11 @@
-#changePassword 
+#modifyPassword 
 #### Description
-个人中心--设置--修改个人登录密码
+1. 个人中心--设置--修改个人登录密码   change_password  登录态下需要checksum认证
+2. 未登录--寻回个人登录密码  reset_password 无登录态不需要checksum认证
 
-##### uid和checksum要使用登陆态后的值， 不要用 0 和‘0’
 
 #### 请求是否要认证
-YES
+1. YES  2. NO
 
 #### Resquet Method
 POST
@@ -33,7 +33,7 @@ POST
 | new_password    | String | YES |  | 新密码 md5(password) |
 示例： 
 ######password是md5之后的值
-{"old_password": "250cf8b51c773f3f8dc8b4be867a9a02", "new_password": "202cb962ac59075b964b07152d234b70"}
+{"target":"change_password", "old_password": "250cf8b51c773f3f8dc8b4be867a9a02", "new_password": "202cb962ac59075b964b07152d234b70"}
 
 
 ####目标：修改密码reset_password
@@ -44,7 +44,7 @@ POST
 | token    | String | YES |  | 第一步成功认证手机号码之后服务器返回的 |
 示例： 
 ######password是md5之后的值
-{"new_password": "202cb962ac59075b964b07152d234b70", "token": "",}
+{"target":"reset_password","mobile":"789","new_password":"202cb962ac59075b964b07152d234b70","token":"58180729967baff51d8934bf28d05c4b7394cb1b"}
 
 #### Response
 | Name | Type | Mandatory | Default | Description |
