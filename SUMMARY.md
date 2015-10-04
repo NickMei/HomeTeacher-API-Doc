@@ -14,7 +14,6 @@
    * [logout](logout.md)
    * [login](login.md)
    * [reauth](reauth.md)
-   * [changePassword](changepassword.md)
    * [sendMsg](sendmsg.md)
    * [authMsgCode](authmsgcodemd.md)
    * [registerAccount](registeraccount.md)
