@@ -28,7 +28,6 @@ POST
 | Name | Type | Mandatory | Default | Description |
 | -- | -- | -- | -- | -- |
 | tutor_id | INT | YES | -- |  |
-| student_id | INT | YES | -- |  |
 | is_bookmarked | INT | YES | -- | 1 收藏教员 或者 0 取消收藏教员 |
 
 #### Response
@@ -41,7 +40,7 @@ POST
 
 |Request URL | "http://112.74.81.48/zhihuieducation/tutorinfo/bookmarkTutor" |
 | --| -- |
-{"tutor_id": 1, "student_id": 2, "is_bookmarked": 1}
+{"tutor_id": 1, "is_bookmarked": 1}
 
 #### Response Example
 
