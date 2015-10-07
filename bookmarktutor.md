@@ -50,7 +50,7 @@ POST
     "retmsg":"成功请求",
     "response":{
         "result":"1"
-    }
+}
 ```
 
 
