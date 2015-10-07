@@ -28,8 +28,8 @@ POST
 | -- | -- | -- | -- | -- |
 | target | STRING | YES | -- | student(该学生作出的评论)  tutor(该教师得到的评论) |
 | comment_type | STRING | YES | -- | comment_all（全部） comment_good（好评）  comment_middle（中评）   comment_bad（差评） |
-
-
+| page | INT | YES | -- |  |
+| limit | INT | YES | -- |  |
 
 
 #### Response
