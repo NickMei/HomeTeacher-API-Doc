@@ -25,8 +25,10 @@ POST
 
 | Name | Type | Mandatory | Default | Description |
 | -- | -- | -- | -- | -- |
+| page | INT | YES | -- |  |
+| limit | INT | YES | -- |  |
 ####  示例程序（空对象JSON）：
-#####   var query_obj = {};
+#####   var query_obj = {"page": 1, "limit": 6};
 #####   var json_str = JSON.stringify(query_obj);
 
 
