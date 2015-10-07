@@ -51,6 +51,14 @@ POST
     "response":{
         "result":"1"
 }
+
+其他错误响应
+{
+    "retcode":"1",
+    "retmsg":"操作失败, 请重试",
+    "response":{
+        "result":"0"
+}
 ```
 
 
