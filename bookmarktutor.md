@@ -46,10 +46,11 @@ POST
 
 ```
 {
-    "retcode": 0,
-    "retmsg": "操作成功！",
-    "result": true
-}
+    "retcode":"0",
+    "retmsg":"成功请求",
+    "response":{
+        "result":"1"
+    }
 ```
 
 
