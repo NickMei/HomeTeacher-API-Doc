@@ -63,7 +63,11 @@ response
     retcode: 0, 
     retmsg: "成功请求！",
     response: {
-        "count" :  1, //满足条件总个数
+        "count_current" :  1, //满足当前评论条件总个数
+        "count_all" :  3, //满足当前评论条件总个数
+        "count_good" :  1, //满足当前评论条件总个数
+        "count_middle" :  1, //满足当前评论条件总个数
+        "count_bad" :  1, //满足当前评论条件总个数
         "list" :  [
             {
                 "comment_type": "好评",
