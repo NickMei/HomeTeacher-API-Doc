@@ -1,7 +1,8 @@
 #authMsgCode 
 #### Description
-个人中心--设置--修改个人绑定手机号码--验证新手机短信码(需要身份认证)
-注册--验证短信验证码(不需要身份认证)
+##### 个人中心--设置--修改个人绑定手机号码--验证新手机短信码(需要身份认证)
+##### 注册--验证短信验证码(不需要身份认证)
+##### 重置密码--验证短信验证码(不需要身份认证)
 
 ##### 认证要求下uid和checksum要使用登陆态后的值， 不要用 0 和‘0’
 
@@ -28,7 +29,7 @@ POST
 
 | Name | Type | Mandatory | Default | Description |
 | -- | -- | -- | -- | -- |
-| target    | String | YES |  | 请求目的，change_mobile, 或者 register |
+| target    | String | YES |  | 请求目的，change_mobile, 或者 register, reset_password |
 | mobile    | String | YES |  | 新手机号码 |
 | msgcode    | String | YES |  | 手机接收的的短信验证码 |
 示例： 
@@ -47,9 +48,11 @@ POST
 | | |
 
 #### Response Example
-##### 需要用返回的token和token_timestamp刷新客户端登录态
 
 #####只有retcode 为0 才是成功响应，其他都是错误响应
+
+#### change_mobile
+##### 需要用返回的token和token_timestamp刷新客户端登录态
 ```
 {
     retcode: 0, 
@@ -59,7 +62,22 @@ POST
         token_timestamp: "1445223717"
     }
 }
+```
 
+#### register &  reset_password
+##### 这里返回的token不是验证登陆态，而是为了注册和重置密码下一步进行认证
+```
+{
+    retcode: 0, 
+    retmsg："手机短信验证成功！",
+    response: {
+        token: "d57c8ab7e18df9cd261892ba81578c8ccbea3f02"
+    }
+}
+
+```
+
+```
 其他错误响应情况
 {
     retcode: 1, 
