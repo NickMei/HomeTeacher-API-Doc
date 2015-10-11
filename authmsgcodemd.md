@@ -30,7 +30,7 @@ POST
 | Name | Type | Mandatory | Default | Description |
 | -- | -- | -- | -- | -- |
 | target    | String | YES |  | 请求目的，change_mobile, 或者 register, reset_password |
-| mobile    | String | YES |  | 新手机号码 |
+| mobile    | String | YES |  | 手机号码 |
 | msgcode    | String | YES |  | 手机接收的的短信验证码 |
 示例： 
 {"target":"change_mobile", "mobile": "13609876789", "msgcode": "120708"}
