@@ -51,11 +51,9 @@ POST
     "response": {
         "district_list": [
             {
-                "district_id": "1769",
                 "district_name": "罗湖区"
             },
             {
-                "district_id": "1770",
                 "district_name": "福田区"
             }
         ]
