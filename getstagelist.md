@@ -31,7 +31,11 @@ GET
 #### Response Example
 
 ```
-[
+{
+    "retcode": 0,
+    "retmsg": "请求成功！",
+    "response": {
+        "stage_list": [
     {
         "stage_id": "13",
         "stage": "全部",
@@ -98,6 +102,19 @@ GET
         "priority": "0"
     }
 ]
+    }
+}
+
+其他错误响应情况
+
+{
+    retcode: 1, 
+    retmsg: "错误",
+    response: {
+    }
+}
+
+
 ```
 
 
