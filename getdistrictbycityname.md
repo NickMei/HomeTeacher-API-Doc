@@ -24,7 +24,9 @@ POST
 
 | Name | Type | Mandatory | Default | Description |
 | -- | -- | -- | -- | -- |
-| cityName | String | YES |  | city chinese name|
+| city_name | String | YES |  | city chinese name |
+####  示例程序（JSON）：
+#####   var query_obj = {'city_name': '深圳市'};
 
 
 
@@ -36,7 +38,7 @@ POST
 
 #### Request Example
 
-|Request URL | "http://112.74.81.48/zhihuieducation/location/getDistrictByCityName?cityName=深圳市" |
+|Request URL | "http://112.74.81.48/zhihuieducation/location/getDistrictByCityName" |
 | --| -- |
 
 
@@ -47,32 +49,16 @@ POST
     "retcode": 0,
     "retmsg": "请求成功！",
     "response": {
-                "district_list": [
-        {
-            "DistrictID": "1769",
-            "DistrictName": "罗湖区"
-        },
-        {
-            "DistrictID": "1770",
-            "DistrictName": "福田区"
-        },
-        {
-            "DistrictID": "1771",
-            "DistrictName": "南山区"
-        },
-        {
-            "DistrictID": "1772",
-            "DistrictName": "宝安区"
-        },
-        {
-            "DistrictID": "1773",
-            "DistrictName": "龙岗区"
-        },
-        {
-            "DistrictID": "1774",
-            "DistrictName": "盐田区"
-        }
-    ]
+        "district_list": [
+            {
+                "district_id": "1769",
+                "district_name": "罗湖区"
+            },
+            {
+                "district_id": "1770",
+                "district_name": "福田区"
+            }
+        ]
     }
 }
 
