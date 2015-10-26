@@ -26,11 +26,11 @@ POST
 | Name | Type | Mandatory | Default | Description |
 | -- | -- | -- | -- | -- |
 | name | varchar | YES | -- | 学生姓名 |
-| nickname | varchar | YES | -- | 昵称 |
 | gender | varchar | YES | -- | 性别 男或女 |
 | grade | varchar | YES | -- | 年级 |
 | city | varchar | YES | -- | 城市 |
 | address | varchar | YES | -- | 地址 |
+| self_intro | varchar | YES | -- | 学生个人情况介绍 |
 ####  示例程序（JSON String）：
 #####   {"name":"梅同学","nickname":"小梅","gender":"男","grade":"高中一年级","city":"深圳","address":"深圳市盐田区沿湖路"}
 
