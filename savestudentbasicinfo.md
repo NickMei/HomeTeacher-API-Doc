@@ -32,7 +32,7 @@ POST
 | address | varchar | YES | -- | 地址 |
 | self_intro | varchar | YES | -- | 学生个人情况介绍 |
 ####  示例程序（JSON String）：
-#####   {"name":"梅同学","nickname":"小梅","gender":"男","grade":"高中一年级","city":"深圳","address":"深圳市盐田区沿湖路"}
+#####   {"name":"梅同学","gender":"男","grade":"高中一年级","city":"深圳","address":"深圳市盐田区沿湖路", "self_intro":"孩子不爱学习",}
 
 
 
