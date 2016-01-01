@@ -34,6 +34,7 @@
    * [getTutorComment](gettutorcomment.md)
    * [likeTutor](liketutor.md)
    * [bookmarkTutor](bookmarktutor.md)
+   * getPriceRangeList
 * helpcenter
    * [advice](advice.md)
 
