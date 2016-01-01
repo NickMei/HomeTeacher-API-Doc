@@ -8,9 +8,9 @@
 NO
 
 #### Resquet Method
-GET
-#### Request Parameters
+POST
 
+#### Request Parameters
 | Name | Type | Mandatory | Default | Description |
 | -- | -- | -- | -- | -- |
 
