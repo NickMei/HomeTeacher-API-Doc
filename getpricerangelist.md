@@ -36,32 +36,32 @@ POST
     "retmsg":"成功请求",
     "response":[
         {
-            "range":"不限",
+            "price_range":"不限",
             "price_min":"all",
             "price_max":"all"
         },
         {
-            "range":"￥0-100",
+            "price_range":"￥0-100",
             "price_min":"0",
             "price_max":"100"
         },
         {
-            "range":"￥100-200",
+            "price_range":"￥100-200",
             "price_min":"100",
             "price_max":"200"
         },
         {
-            "range":"￥200-300",
+            "price_range":"￥200-300",
             "price_min":"200",
             "price_max":"300"
         },
         {
-            "range":"￥300-500",
+            "price_range":"￥300-500",
             "price_min":"300",
             "price_max":"500"
         },
         {
-            "range":"￥500以上",
+            "price_range":"￥500以上",
             "price_min":"500",
             "price_max":"all"
         }
