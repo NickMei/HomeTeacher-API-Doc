@@ -10,7 +10,7 @@
    * [getStudentGradeList](getstudentgradelist.md)
    * [getStduentBookmarkList](getstduentbookmarklist.md)
    * [getCommentList](getcommentlist.md)
-   * getCommentAverage
+   * [getCommentAverage](sample/getcommentaverage.md)
 * [auth](auth.md)
    * [logout](logout.md)
    * [login](login.md)
