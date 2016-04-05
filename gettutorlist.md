@@ -39,7 +39,7 @@ POST
             'sub_course': $scope.sub_course,
             'gender_eng': $scope.gender_eng,
             'career': $scope.career,
-            'city': $rootScope.city,
+            'city_id': $rootScope.city_id,
             'district': $scope.district,
             'price_min': $scope.price_min,
             'price_max': $scope.price_max,
