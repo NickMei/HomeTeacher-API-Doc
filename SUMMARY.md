@@ -38,6 +38,5 @@
    * [getPriceRangeList](getpricerangelist.md)
 * helpcenter
    * [advice](advice.md)
-   * order
 * order
 
