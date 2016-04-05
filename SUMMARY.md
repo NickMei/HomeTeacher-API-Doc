@@ -40,4 +40,5 @@
    * [advice](advice.md)
 * order
    * [getOrderTutorInfo](getordertutorinfo.md)
+   * addOrder
 
