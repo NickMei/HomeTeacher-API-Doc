@@ -39,4 +39,5 @@
 * helpcenter
    * [advice](advice.md)
 * order
+   * getOrderTutorInfo
 
