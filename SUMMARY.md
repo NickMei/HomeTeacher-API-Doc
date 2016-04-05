@@ -39,5 +39,5 @@
 * helpcenter
    * [advice](advice.md)
 * order
-   * getOrderTutorInfo
+   * [getOrderTutorInfo](getordertutorinfo.md)
 
