@@ -32,19 +32,18 @@ POST
 #####只有retcode 为0 才是成功响应，其他都是错误响应
 ```
 {
-    "retcode": 0,
-    "retmsg": "请求成功！",
-    "response": {
-        "city_list": [
-            "深圳",
-            "广州",
-            "重庆",
-            "东莞",
-            "惠州",
-            "珠海"
-        ]
+    response: {
+      open_city_list: {
+        0: {city_id: "199", city_name: "深圳市"}
+        1: {city_id: "197", city_name: "广州市"}
+        2: {city_id: "234", city_name: "重庆市"}
+        3: {city_id: "213", city_name: "东莞市"}
     }
+    retcode: "0"
+    retmsg: "请求成功！"
 }
+
+
 
 其他错误响应情况
 
