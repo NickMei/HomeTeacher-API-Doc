@@ -36,8 +36,7 @@ POST
     retcode: 0, 
     retmsg: "成功请求！",
     response: {
-        "city_id" :  "123",
-        "city" :  "深圳"
+        "result" :  "1"
     }
 }
 
