@@ -24,7 +24,7 @@ POST
 
 #### Request Example
 
-|Request URL | "http://112.74.81.48/zhihuieducation/location/getCity" |
+|Request URL | "http://112.74.81.48/zhihuieducation/location/rsetCity" |
 | --| -- |
 | | |
 
