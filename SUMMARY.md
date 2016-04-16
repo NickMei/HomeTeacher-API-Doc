@@ -25,7 +25,7 @@
    * [getCityList](getcitylist.md)
    * [getDistrictList](getdistrictlist.md)
    * [getDistrictByCityName](getdistrictbycityname.md)
-   * getCity
+   * [getCity](getcity.md)
 * [course](likeTutor.md)
    * [getStageList](getstagelist.md)
    * [getCourseList](getcourselist.md)
